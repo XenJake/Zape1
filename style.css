@@ -92,26 +92,29 @@ margin-right: auto;
 
 }
 
-.text {
-
-top: 70%;
-
+#tagline h1{
 position: absolute;
-
-font-size:30px;
-
-left:30%;
-
+margin-top: -550px;
+margin-left: 30%;
 }
-
+#tagline button {
+    position: absolute;
+    margin-top: -35%;
+    margin-left:  -40%;
+}
  
-
+#abt img{
+    display: flex;
+}
 .text-p {
 
 margin-left: 35%;
-
+margin-top: 5%;
 }
-
+.p {
+float: right;
+margin-top: -500px;
+}
 .n {
 
 margin-left: 70%;
@@ -126,16 +129,59 @@ width: 150px;
 
 .big img {
 
-width: 200px;
+width: 400px;
+height: 300px;
 
 }
 
-.small 1{
-
-margin-left: 50px;
+.small1{
+margin-left: 30%;
+margin-top: -390px;
 
 }
+.small1 img {
+height: 100px;
+}
+.small2 {
+    margin-left: 45%;
+    margin-top: -190px;
+    
+}
+.small2 img {
+    height: 100px;
+}
+.small3{
+    margin-left: 60%;
+    margin-top: -190px;
+    
+ }
+.small3 img {
+    height: 100px;
+}
+.small4 {
+    margin-left: 30%;
 
+    
+}
+.small4 img {
+    height: 100px;
+}
+.small5{
+    margin-left: 45%;
+    margin-top: -190px;
+    
+}
+.small5 img {
+    height: 100px;
+}
+.small6 {
+    margin-left: 60%;
+    margin-top: -190px;
+    
+}
+.small6 img {
+    height: 100px;
+}
 .abt {
 
 border: 1px solid gray;
@@ -177,4 +223,8 @@ footer a:hover {
 color: aqua;
 
 text-decoration: underline
+}
+.find {
+    margin-left: 70%;
+    margin-top: -200px;
 }
